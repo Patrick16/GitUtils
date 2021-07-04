@@ -1,8 +1,8 @@
 # GitUtils
-Utils that can help to simplify work with git.
+This repo contains scripts and configs that may be useful with git work.
 
 # Configs
-`configs` folder contains `global.gitconfig` file. All settings that are described here are applied to all your repositories. You can read about it [here](https://git-scm.com/docs/git-config).
+All settings that are described in `global.gitconfig` file are applied to all your repositories. You can read about it [here](https://git-scm.com/docs/git-config).
 Basically global .gitconfig is lacated here:`C:\Users\<user_name>`. 
 To apply settings from `global.gitconfig` copy its content and paste to `C:\Users\<user_name>\.gitconfig`.
 
