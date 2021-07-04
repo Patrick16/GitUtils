@@ -1,0 +1,12 @@
+#!/bin/bash
+
+command=$1
+for obj in ./*; do
+	if [ -d "$obj" ]; then
+        cd "$obj"
+        echo -e "\033[33m $obj \033[0m"
+        git "$command"
+        cd ..
+        echo
+	fi
+done
