@@ -10,7 +10,7 @@ To apply settings from `global.gitconfig` copy its content and paste to `C:\User
 ## Environment variable
 To use scripts need to add scripts folder path to `Path` environment variable.
 
-Run cmd as Asdmiinistrator and paste the following string with specifying the real path to scripts folder: 
+Run cmd as Asdministrator and paste the following string with specifying the real path to scripts folder: 
 ```bash
 set PATH "%PATH%;<Path to scripts folder>
 ```
