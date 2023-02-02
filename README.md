@@ -16,17 +16,10 @@ set PATH "%PATH%;<Path to scripts folder>
 ```
 **Note**: Scripts use aliases from global `.gitconfig`. Need to update global `.gitconfig` to use them.
 
-## Description
-* **git-a2d** - Goes along all repositories in folder and switches to develop branch. Develop has to be stable branch.
-* **git-a2m** - Goes along all repositories in folder and switches to master branch. Master has to be stable branch.
-* **git-ap** - Goes along all repositories in folder and pulls them.
-* **git-as** - Goes along all repositories in folder and shows status.
-* **DoForEachRepo** - common script to go along all repositories and execute passed git command. 
-
 ## Usage
 To execute script go to parent folder with repositories and call git command with name of the script (without `git-` prefix):
 ```bash
-git a2d
+git all <git-command>
 ```
 # Developing
 Scripts should always begin with
